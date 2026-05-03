@@ -1,7 +1,7 @@
 {
   "name": "grocery-booking",
   "version": "1.0.0",
-  "description": "",
+  "description": "A RESTful grocery booking system API",
   "main": "index.js",
   "scripts": {
     "dev": "ts-node-dev --respawn --transpile-only src/app.ts",

@@ -39,8 +39,7 @@ export const errorMiddleware = (
 
   // Unknown error — show real message in dev
   res.status(500).json({
-    success: false,
-    message: process.env.NODE_ENV === 'development' ? err.message : 'Internal server error',
-    stack: process.env.NODE_ENV === 'development' ? err.stack : undefined,
+     success: false,
+     message: 'Internal server error',
   })
 }

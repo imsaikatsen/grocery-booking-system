@@ -19,7 +19,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \n    \"email\": \"saikat@example.com\",\n    \"password\": \"User123\"\n  }",
+					"raw": "{\n    \n    \"email\": \"user@grocery.com\",\n    \"password\": \"user123\"\n  }",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -56,7 +56,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n \"email\": \"saikat@gmail.com\",\n \"password\": \"user123\"\n}",
+					"raw": "{\n \"email\": \"user@grocery.com\",\n \"password\": \"user123\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -87,7 +87,7 @@
 					"bearer": [
 						{
 							"key": "token",
-							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiZW1haWwiOiJhZG1pbkB0ZXN0LmNvbSIsInJvbGUiOiJBRE1JTiIsImlhdCI6MTc3NzY2Nzc3NSwiZXhwIjoxNzc4MjcyNTc1fQ.6xF7VaRGWC-RL3_xIQ8q2jpGkuGwW50xYWOBq7s-5Xg",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJhZG1pbkBncm9jZXJ5LmNvbSIsInJvbGUiOiJBRE1JTiIsImlhdCI6MTc3Nzc4ODk1MiwiZXhwIjoxNzc4MzkzNzUyfQ.A_3WMZTnbFXTjDH6rZo6OB4r6nFgNdvhehKBG7IYXUc",
 							"type": "string"
 						}
 					]
@@ -127,7 +127,7 @@
 					"bearer": [
 						{
 							"key": "token",
-							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiZW1haWwiOiJhZG1pbkB0ZXN0LmNvbSIsInJvbGUiOiJBRE1JTiIsImlhdCI6MTc3NzY2Nzc3NSwiZXhwIjoxNzc4MjcyNTc1fQ.6xF7VaRGWC-RL3_xIQ8q2jpGkuGwW50xYWOBq7s-5Xg",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJhZG1pbkBncm9jZXJ5LmNvbSIsInJvbGUiOiJBRE1JTiIsImlhdCI6MTc3Nzc4ODk1MiwiZXhwIjoxNzc4MzkzNzUyfQ.A_3WMZTnbFXTjDH6rZo6OB4r6nFgNdvhehKBG7IYXUc",
 							"type": "string"
 						}
 					]
@@ -158,7 +158,7 @@
 					"bearer": [
 						{
 							"key": "token",
-							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiZW1haWwiOiJhZG1pbkB0ZXN0LmNvbSIsInJvbGUiOiJBRE1JTiIsImlhdCI6MTc3NzY2Nzc3NSwiZXhwIjoxNzc4MjcyNTc1fQ.6xF7VaRGWC-RL3_xIQ8q2jpGkuGwW50xYWOBq7s-5Xg",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJhZG1pbkBncm9jZXJ5LmNvbSIsInJvbGUiOiJBRE1JTiIsImlhdCI6MTc3Nzc4ODk1MiwiZXhwIjoxNzc4MzkzNzUyfQ.A_3WMZTnbFXTjDH6rZo6OB4r6nFgNdvhehKBG7IYXUc",
 							"type": "string"
 						}
 					]
@@ -175,7 +175,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:3000/api/admin/groceries/1",
+					"raw": "http://localhost:3000/api/admin/groceries/11",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -185,7 +185,7 @@
 						"api",
 						"admin",
 						"groceries",
-						"1"
+						"11"
 					]
 				}
 			},
@@ -199,7 +199,7 @@
 					"bearer": [
 						{
 							"key": "token",
-							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiZW1haWwiOiJhZG1pbkB0ZXN0LmNvbSIsInJvbGUiOiJBRE1JTiIsImlhdCI6MTc3NzY2Nzc3NSwiZXhwIjoxNzc4MjcyNTc1fQ.6xF7VaRGWC-RL3_xIQ8q2jpGkuGwW50xYWOBq7s-5Xg",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJhZG1pbkBncm9jZXJ5LmNvbSIsInJvbGUiOiJBRE1JTiIsImlhdCI6MTc3Nzc4ODk1MiwiZXhwIjoxNzc4MzkzNzUyfQ.A_3WMZTnbFXTjDH6rZo6OB4r6nFgNdvhehKBG7IYXUc",
 							"type": "string"
 						}
 					]
@@ -216,7 +216,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:3000/api/admin/groceries/1/inventory",
+					"raw": "http://localhost:3000/api/admin/groceries/11/inventory",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -226,7 +226,7 @@
 						"api",
 						"admin",
 						"groceries",
-						"1",
+						"11",
 						"inventory"
 					]
 				}
@@ -273,7 +273,7 @@
 					"bearer": [
 						{
 							"key": "token",
-							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NCwiZW1haWwiOiJzYWlrYXRAZ21haWwuY29tIiwicm9sZSI6IlVTRVIiLCJpYXQiOjE3Nzc2OTk1ODgsImV4cCI6MTc3ODMwNDM4OH0.xdB5bm7esgD85_Dg_OD4PLR07WvXh2-sZ1B41vvLkn4",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiZW1haWwiOiJ1c2VyQGdyb2NlcnkuY29tIiwicm9sZSI6IlVTRVIiLCJpYXQiOjE3Nzc3ODk3NzYsImV4cCI6MTc3ODM5NDU3Nn0.bPjw1HpSXbD5KMk12kCF29OmJ9z46wkQm-lNYSAO9V8",
 							"type": "string"
 						}
 					]
@@ -297,14 +297,14 @@
 			"response": []
 		},
 		{
-			"name": "http://localhost:3000/api/user/orders/3/inventory",
+			"name": "http://localhost:3000/api/user/orders",
 			"request": {
 				"auth": {
 					"type": "bearer",
 					"bearer": [
 						{
 							"key": "token",
-							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NCwiZW1haWwiOiJzYWlrYXRAZ21haWwuY29tIiwicm9sZSI6IlVTRVIiLCJpYXQiOjE3Nzc2OTk1ODgsImV4cCI6MTc3ODMwNDM4OH0.xdB5bm7esgD85_Dg_OD4PLR07WvXh2-sZ1B41vvLkn4",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiZW1haWwiOiJ1c2VyQGdyb2NlcnkuY29tIiwicm9sZSI6IlVTRVIiLCJpYXQiOjE3Nzc3ODk3NzYsImV4cCI6MTc3ODM5NDU3Nn0.bPjw1HpSXbD5KMk12kCF29OmJ9z46wkQm-lNYSAO9V8",
 							"type": "string"
 						}
 					]
@@ -313,7 +313,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n  \"items\": [\n    { \"groceryItemId\": 11, \"quantity\": 2 }\n  ]\n}",
+					"raw": "{\n  \"items\": [\n    { \"groceryItemId\": 7, \"quantity\": 4 }\n  ]\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -321,7 +321,69 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:3000/api/user/orders/3/inventory",
+					"raw": "http://localhost:3000/api/user/orders",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"user",
+						"orders"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/user/orders",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiZW1haWwiOiJ1c2VyQGdyb2NlcnkuY29tIiwicm9sZSI6IlVTRVIiLCJpYXQiOjE3Nzc3ODk3NzYsImV4cCI6MTc3ODM5NDU3Nn0.bPjw1HpSXbD5KMk12kCF29OmJ9z46wkQm-lNYSAO9V8",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/user/orders",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"user",
+						"orders"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/user/orders/3",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiZW1haWwiOiJ1c2VyQGdyb2NlcnkuY29tIiwicm9sZSI6IlVTRVIiLCJpYXQiOjE3Nzc3ODk3NzYsImV4cCI6MTc3ODM5NDU3Nn0.bPjw1HpSXbD5KMk12kCF29OmJ9z46wkQm-lNYSAO9V8",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/user/orders/3",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -331,8 +393,7 @@
 						"api",
 						"user",
 						"orders",
-						"3",
-						"inventory"
+						"3"
 					]
 				}
 			},
