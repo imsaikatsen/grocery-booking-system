@@ -2,7 +2,7 @@ import { z } from 'zod'
 
 export const createGrocerySchema = z.object({
   body: z.object({
-    name: z.string({ required_error: 'Name is required' })
+    name: z.string({ error: 'Name is required' })
       .min(2, 'Name must be at least 2 characters')
       .max(100, 'Name must not exceed 100 characters'),
 
@@ -10,11 +10,11 @@ export const createGrocerySchema = z.object({
       .max(500, 'Description must not exceed 500 characters')
       .optional(),
 
-    price: z.number({ required_error: 'Price is required' })
+    price: z.number({ error: 'Price is required' })
       .positive('Price must be greater than 0')
       .multipleOf(0.01, 'Price can have at most 2 decimal places'),
 
-    inventory: z.number({ required_error: 'Inventory is required' })
+    inventory: z.number({ error: 'Inventory is required' })
       .int('Inventory must be a whole number')
       .min(0, 'Inventory cannot be negative'),
   }),
@@ -48,7 +48,7 @@ export const updateInventorySchema = z.object({
     id: z.string().regex(/^\d+$/, 'Invalid ID format'),
   }),
   body: z.object({
-    inventory: z.number({ required_error: 'Inventory is required' })
+    inventory: z.number({ error: 'Inventory is required' })
       .int('Inventory must be a whole number')
       .min(0, 'Inventory cannot be negative'),
   }),

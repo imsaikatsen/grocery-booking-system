@@ -42,7 +42,7 @@ export class OrderController {
   async getUserOrderById(req: Request, res: Response, next: NextFunction): Promise<void> {
     try {
       const userId = req.user!.id
-      const orderId = parseInt(req.params.id)
+      const orderId = parseInt(req.params.id as string)
       const order = await orderService.getUserOrderById(userId, orderId)
 
       res.status(200).json({

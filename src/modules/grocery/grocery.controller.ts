@@ -43,7 +43,7 @@ export class GroceryController {
   // ─── Admin: Update ────────────────────────────────
   async updateItem(req: Request, res: Response, next: NextFunction): Promise<void> {
     try {
-      const id = parseInt(req.params.id)
+      const id = parseInt(req.params.id as string)
       const data = req.body as UpdateGroceryInput
       const item = await groceryService.updateItem(id, data)
 
@@ -60,7 +60,7 @@ export class GroceryController {
   // ─── Admin: Delete ────────────────────────────────
   async deleteItem(req: Request, res: Response, next: NextFunction): Promise<void> {
     try {
-      const id = parseInt(req.params.id)
+      const id = parseInt(req.params.id as string)
       const result = await groceryService.deleteItem(id)
 
       res.status(200).json({
@@ -75,7 +75,7 @@ export class GroceryController {
   // ─── Admin: Update Inventory ──────────────────────
   async updateInventory(req: Request, res: Response, next: NextFunction): Promise<void> {
     try {
-      const id = parseInt(req.params.id)
+      const id = parseInt(req.params.id as string)
       const data = req.body as UpdateInventoryInput
       const item = await groceryService.updateInventory(id, data)
 

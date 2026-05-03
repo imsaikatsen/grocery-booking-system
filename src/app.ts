@@ -41,4 +41,15 @@ app.listen(env.port, () => {
   console.log(`🏥 Health: http://localhost:${env.port}/health`)
 })
 
+// ─── Graceful Shutdown ───────────────────────────
+process.on('SIGTERM', () => {
+  console.log('SIGTERM received. Shutting down gracefully...')
+  process.exit(0)
+})
+
+process.on('SIGINT', () => {
+  console.log('SIGINT received. Shutting down gracefully...')
+  process.exit(0)
+})
+
 export default app

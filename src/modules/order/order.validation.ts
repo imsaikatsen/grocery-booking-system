@@ -6,12 +6,12 @@ export const createOrderSchema = z.object({
       .array(
         z.object({
           groceryItemId: z
-            .number({ required_error: 'Grocery item ID is required' })
+            .number({ error: 'Grocery item ID is required' })
             .int('Grocery item ID must be a whole number')
             .positive('Grocery item ID must be positive'),
 
           quantity: z
-            .number({ required_error: 'Quantity is required' })
+            .number({ error: 'Quantity is required' })
             .int('Quantity must be a whole number')
             .min(1, 'Quantity must be at least 1'),
         })
